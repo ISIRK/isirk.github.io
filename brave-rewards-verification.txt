@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: asksirk.com
+Token: fa7ef57490ac7591e631079643b7b8fd05770078c18652bc6ed7362eddbe6eaa
