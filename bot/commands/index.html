@@ -4,80 +4,12 @@
     <link rel="icon" 
     type="image/png" 
     href="/img/sirk.png">
-<title>Sirk Bot</title>
-<meta name="description" content="A minimalistic bot for discord">
+<title>Sirk Bot | Commands</title>
+<meta name="description" content="Sirk Bot - Commands">
   <meta name="theme-color" content="#4D5B71">
   <meta content="/img/sirk.png" property="og:image">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Roboto;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 10px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-</style>
 </head>
-<body>
-
-<div class="header">
-  <a href="/bot/" class="logo"><img src="https://asksirk.com/img/sirk.png" height="40" width="40"></a>
-  <div class="header-right">
-    <a class="active" href="https://discord.com/oauth2/authorize?client_id=751447995270168586&permissions=268823638&scope=bot">Invite</a>
-    <a href="/commands/">Commands</a>
-    <a href="/privacy/">Privacy</a>
-  </div>
-</div>
-</body>
-</head>
+<body style="font-family: Roboto;"></style>
 <style>
     body {
       background-color: #1d2b4b;
@@ -85,18 +17,93 @@ body {
     body {
         color: white;
     }
+    table {
+        border-collapse: collapse;
+    }
     a { text-decoration: none; }
     a:hover {
         color: #7289DA; }
+    tr:nth-child(odd) {
+        background-color: #18233d;
+    }
+    th, td {
+        padding: 1em 1.5em;
+    }
+    tr:nth-child(odd) > * > code {
+        background-color:  #1d2b4b;
+        padding: 3px 6px;
+        border-radius: 3px;
+    }
+    tr:nth-child(even) > * > code {
+        background-color:  #18233d;
+        padding: 3px 6px;
+        border-radius: 3px;
+    }
 </style>
 <body link=white alink=white vlink=white></body>
+<a href="/bot/">Home</a>
 <center>
+    <h2>Commands for Sirk Bot - (WIP)</h2>
+    <br>
     <br><br>
-<img src="https://asksirk.com/img/sirk.png" height="200" width="200">
-<br><br>
-<h3><a href="https://discord.com/oauth2/authorize?client_id=751447995270168586&permissions=268823638&scope=bot">Invite</a></h3>
-<h3><a href="commands/">Commands<a></h3>
-<h3><a href="https://discord.gg/7yZqHfG">Support Server</a></h3>
+<table>
+    <tr>
+      <th>Command</th>
+      <th>Info</th>
+    </tr>
+    <tr>
+      <td><code>help</code></td>
+      <td>Get a list of all the commands and see how to use them.</td>
+    </tr>
+    <tr>
+      <td><code>about</code></td>
+      <td>Get information about the bot.</td>
+    </tr>
+    <tr>
+        <td><code>credits</code></td>
+        <td>See the credits for Sirk.</td>
+      </tr>
+    <tr>
+        <td><code>invite</code></td>
+        <td>Get the invite link for Sirk.</td>
+    </tr>
+    <tr>
+        <td><code>privacy</code></td>
+        <td>See the bots privacy policy.</td>
+    </tr>
+    <tr>
+        <td><code>source</code></td>
+        <td>See the bots source.</td>
+    </tr>
+    <tr>
+        <td><code>support</code></td>
+        <td>Get support information.</td>
+    </tr>
+    <tr>
+        <td><code>vote</code></td>
+        <td>Vote for Sirk in top.gg</td>
+    </tr>
+    <tr>
+        <td><code>avatar</code></td>
+        <td>Get the avatar of the mentioned member.</td>
+    </tr>
+    <tr>
+        <td><code>ping</code></td>
+        <td>Get the bot ping.</td>
+    </tr>
+    <tr>
+        <td><code>server</code></td>
+        <td>Get information about the server.</td>
+    </tr>
+    <tr>
+        <td><code>stats</code></td>
+        <td>Get the bot stats.</td>
+    </tr>
+    <tr>
+        <td><code>user</code></td>
+        <td>Get information about the mentioned user.</td>
+    </tr>
+</table>
 </center>
 </body>
 </html>
