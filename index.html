@@ -75,18 +75,18 @@
     }
     img {
       border-radius: 50%;
-    }
-    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
     /* Animation */
-    p {
-      animation: animated-text 2s steps(30,end) 1s 1 normal both;
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(44) infinite normal;
     }
-
-    /* text animation */
-
-    @keyframes animated-text{
+    @keyframes typewriter{
       from{width: 0;}
-      to{width: 472px;}
+      to{width: 24em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
     }
 </style>
 <body link=dodgerblue alink=dodgerblue vlink=dodgerblue></body>
@@ -95,7 +95,7 @@
 <img src="/img/isirk.gif" height="200" width="200">
 <br><br>
 <h2>Hi! I'm isirk</h2>
-<p>I make <a href="/bot/">discord bots</a> and play video games.</p>
+<p class="line-1 anim-typewriter">I make <a href="/bot/">discord bots</a> and play video games.</p>
 </center>
 </body>
 </html>
