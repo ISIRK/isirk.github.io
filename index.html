@@ -9,9 +9,9 @@
 <script>console.log('https://github.com/isirk/isirk.github.io');</script>
 <meta name="description" content="isirk's site!">
   <meta name="theme-color" content="#4D5B71">
-  <meta content="/img/isirk.gif" property="og:image">
+  <meta content="https://asksirk.com/img/isirk.gif" property="og:image">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/bot/menu.css">
+  <link rel="stylesheet" href="https://asksirk.com/bot/menu.css">
   </head>
   <!--    Made by Erik Terwan Edited by isirk#0001  -->
   <nav role="navigation">
@@ -79,14 +79,54 @@
     img {
       border-radius: 50%;
     }
+    .callout {
+      position: fixed;
+      bottom: 35px;
+      right: 20px;
+      margin-left: 20px;
+      max-width: 300px;
+    }
+
+    .callout-header {
+      padding: 25px 15px;
+      background: #00B32C;
+      font-size: 30px;
+      color: white;
+    }
+
+    .callout-container {
+      padding: 15px;
+      background-color: #E40010;
+      color: white
+    }
+
+    .closebtn {
+      position: absolute;
+      top: 5px;
+      right: 15px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .closebtn:hover {
+      color: #1d2b4b;
+    }
 </style>
 <body link=dodgerblue alink=dodgerblue vlink=dodgerblue></body>
 <center>
     <br><br>
-<img src="/img/isirk.gif" height="200" width="200">
+<img src="https://asksirk.com/img/isirk.gif" height="200" width="200">
 <br><br>
 <h2>Hi! I'm isirk</h2>
 <p>I make <a href="/bot/">discord bots</a> and play video games.</p>
 </center>
+<div class="callout">
+  <div class="callout-header">Merry Christmas!</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>If you want to have a christmas challenge or watch the christmas countdown go <a href="/christmas/">here</a>!</p>
+  </div>
+</div>
 </body>
 </html>
